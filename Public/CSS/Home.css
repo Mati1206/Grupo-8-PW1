@@ -1,0 +1,115 @@
+header{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    margin-left: 23%;
+}
+.perfil{
+  display: flex;
+  align-items: center;
+  margin-left: 72%;                           
+}
+.Cerrar{
+    margin-left: -10%;
+}
+a{
+    text-decoration: none;
+}
+.sidebar {
+    
+    margin-right: 80%;
+    margin-top: -6%; 
+    border: 2px rgb(0, 0, 0) solid;
+
+     
+}
+li{
+    display: flex;
+    justify-content: center;
+    margin-left: -15%;
+    padding: 10% 20%; 
+  
+}
+#Home{
+    
+    background-color: rgb(189, 189, 189);
+}
+li:hover{
+    background-color: grey;
+    font-size: x-large;
+}
+.opciones{
+    border-bottom: 2px rgb(0, 0, 0) solid;
+}
+.informacion{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 80%;
+    flex-direction: column;
+}
+.imagenInfo{
+    position: relative;
+}
+.estrellaInfo{
+    position: absolute;
+    left: 14.5%;
+    top: 46%;
+}   
+.grilla{ 
+    display: grid;
+    grid-template-columns: 20% 20% 20%;    
+}
+.album{
+    position: relative;
+    
+}
+.estrella1{
+    position: absolute;
+
+}
+.estrella2{
+    position: absolute;
+    
+}
+.estrella3{
+    position: absolute;
+    
+}
+.estrella4{
+    position: absolute;
+   
+}
+.estrella5{
+    position: absolute;
+    
+}
+.estrella6{
+    position: absolute;
+    
+}
+.estrella7{
+    position: absolute;
+    
+}
+.estrella8{
+    position: absolute;
+    
+}
+.estrella9{
+    position: absolute;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
