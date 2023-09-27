@@ -1,3 +1,6 @@
+body{
+    background-color: #017bab;
+}
 header{
     display: flex;
     margin-left: 23%;
@@ -46,6 +49,7 @@ a:hover{
     margin-right: 80%;
     margin-top: -6%; 
     border: 2px rgb(0, 0, 0) solid;
+    background-color: white;
 
      
 }
