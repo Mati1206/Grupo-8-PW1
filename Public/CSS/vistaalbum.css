@@ -1,19 +1,20 @@
 header{
     display: flex;
     margin-left: 23%;
+    
 }
-ul {
+ul{
     list-style: none;
-  
 }
 .usuario-header{ 
-   
+    
     display:flex; 
     flex-direction: row;
     justify-content: flex-end;
     position: relative;
-    left: 55%;
+    left: 50%;
 }
+
 .perfil{
   display: flex;
   align-items: center;
@@ -25,9 +26,6 @@ ul {
 a{
     text-decoration: none;
     color: black;
-}
-a:hover{
-    color: green;
 }
 .sidebar {
     
@@ -45,7 +43,15 @@ a:hover{
     
   
 }
-#Home{
+.txt-p{ 
+    display: flex;
+    position: relative;
+    width: 550%;
+   
+    text-align: justify;
+    right: 10%;
+}
+#Albums{
     
     background-color: rgb(189, 189, 189);
 }
@@ -61,6 +67,13 @@ a:hover{
     margin-left: 2%;
     margin-right: 80%;
     flex-direction: column;
+    position: relative;
+    right: 0%;
+}
+.imagenInfo{
+    position: relative;
+    right: 11%;
+    width: 560%;
 }
 .contenedor-informacion{
     display: grid;
@@ -68,13 +81,17 @@ a:hover{
     border-radius: 10px;
     position: relative;
     width: 19.7%;
-    font-size: 15px; 
+    font-size: 15px;
+    
+  
+    
 }
-.imagenInfo{
-    position: relative;
-    right: 11%;
-    width: 560%;
+.reproductor{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
 }
+
 .estrellaInfo{
     position: absolute;
     left: 14.5%;
@@ -101,11 +118,6 @@ img {
 .album{
     position: relative;
     
-}
-.reproductor{
-    width: 100%;
-    border: 2px solid black;
-    border-radius: 5px;
 }
 .estrella1{
     position: absolute;
@@ -146,9 +158,10 @@ img {
 
 
 footer{
-    color: aliceblue;
+    background-color: black;
+    color: white;
  
-   background-color: black;
+    text-align: center;
 }
 .contenedor-alumno{
     display: flex;
@@ -161,7 +174,4 @@ footer{
 
 
 
-
-
- 
 

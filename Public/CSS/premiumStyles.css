@@ -118,3 +118,15 @@ a.nom{
     justify-content: center;
     align-items: center;
 }
+footer{
+    background-color: black;
+    color: white;
+ 
+    text-align: center;
+}
+.contenedor-alumno{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}

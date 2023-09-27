@@ -78,7 +78,14 @@
     margin:0 auto;
 }
 
-.footer{
-    background-color: #cbc9d6;
-    height: 200px;
+footer{
+    color: aliceblue;
+   background-color: black;
 }
+.contenedor-alumno{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
