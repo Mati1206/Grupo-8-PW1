@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 *{
     list-style: none;
     text-decoration: none;
-
+    font-family: 'Roboto', sans-serif;
 }
 nav{
     margin: 0;
@@ -10,6 +12,7 @@ nav{
     text-decoration: none;
     width: 100%;
     height: 100px;
+    background: #017bab;
     
 }
 
@@ -21,8 +24,9 @@ ul.nav-inicio{
 }
 
 a.nom{
-    color: black;
+    color: white;
     font-size: 20px;
+    font-style: bold;
 }
 .foto-usuario{
     float: right;
@@ -56,9 +60,20 @@ h2{
 
 }
 
+.boton-pago{
+    font-size: 20;
+    padding:15px 25px;
+    color: black;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background:  rgb(212, 212, 212);
+
+}
 .btn-final{
     display: grid;
-    grid-template-columns: repeat(2,150px);
+    grid-template-columns: repeat(2,200px);
     grid-gap: 120px;
     margin: 30px;
     align-content: end;
@@ -67,16 +82,6 @@ h2{
     justify-items: center;
     
     
-}
-.boton-pago{
-    font-size: 20;
-    padding:15px 25px;
-    background-color: gray;
-    color: black;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-
 }
 footer{
     background-color: black;
@@ -89,4 +94,122 @@ footer{
     flex-direction: row;
     justify-content: center;
     list-style: none;
+}
+
+.titulos-precio{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.Img-Plan{
+    width: 250px; 
+    height:250px;
+}
+
+@media screen and (max-width:47em){
+    *{
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        width: 100%;
+        height: 100px;
+        background: #017bab;
+        
+    }
+    
+    
+    ul.nav-inicio{
+        float: right;
+        margin-right: 0px;
+        margin-top: 10px; 
+    }
+    
+    a.nom{
+        color: white;
+        font-size: 70%;
+        font-style: bold;
+    }
+    .foto-usuario{
+        float: right;
+        margin-right: 10px;
+        margin-top: 10px;
+        
+    }
+    
+    h2{
+        padding: 30px;
+        text-align: center;
+        font-size: 70%;
+        
+    }
+    .plan-elegido{
+        display: grid;
+        grid-template-columns: repeat(1,300px);
+        grid-gap: 50px;
+        justify-content: center;
+        margin: 100px;
+        font-size: 70%;    
+    }
+    
+    .campos-pagar{
+        display: grid;
+        grid-template-columns: repeat(1,400px);
+        grid-gap: 30px;
+        justify-content: center;
+        margin: 80px;
+    }
+    .caja-pago{
+        height: 40px;
+    
+    }
+    
+    .boton-pago{
+        font-size: 70%;
+        padding:15px 25px;
+        color: black;
+        border: 1px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 8px;
+        background:  rgb(212, 212, 212);
+    
+    }
+    .btn-final{
+        display: grid;
+        grid-template-columns: repeat(2,80px);
+        grid-gap: 120px;
+        margin: 30px;
+        align-content: end;
+        justify-content: center;
+        align-items: end;
+        justify-items: center;
+        
+        
+    }
+    footer{
+        background-color: black;
+        color: white;
+     
+        text-align: center;
+    }
+    .contenedor-alumno{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .titulos-precio{
+        font-size: 80%;
+        text-align: center;
+        
+    }
+    
+
 }

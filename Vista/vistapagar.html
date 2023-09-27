@@ -17,7 +17,7 @@
 
             </label>
             <label for="" class="foto-usuario">
-                <img src = "../Public/IMG/perfil-del-usuario.png" />
+                <a href="/Vista/perfil.html" > <img src = "../Public/IMG/perfil-del-usuario.png" />  </a>
 
             </label>
 
@@ -32,9 +32,10 @@
 
     <section class="form-pay"> 
         <h2>Elegiste el plan : Individual </h2>
+        <h3 class="titulos-precio">$1500 *</h3>
         <article class="plan-elegido">
             <label for="" class="foto-plan">
-                <img src = "../Public/IMG/alone.png" width="350px" height="350px"/>
+                <img class="Img-Plan" src = "../Public/IMG/alone.png" />
 
             </label>
                 <ul class="lista-incluye">
@@ -51,7 +52,7 @@
 
         <article class="campos-pagar">
             <input class="caja-pago" type="text" name="nrotarjeta" value="" placeholder="Tarjeta">
-            <input class="caja-pago" type="text" name="vencimiento" value="" placeholder="Vencimiento mm/aaaa">
+            <input class="caja-pago" type="date"  name="Vencimiento" placeholder="Vencimiento mm-aaaa">
             <input class="caja-pago" type="password" name="CVC" value="" placeholder="CVC">
             <input class="caja-pago" type="text" name="Nombres" value="" placeholder="Nombre y apellido del titular">
         </article>

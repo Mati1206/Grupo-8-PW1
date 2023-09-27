@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
 *{
     list-style: none;
     text-decoration: none;
-
+    font-family: 'Roboto', sans-serif;
 }
 nav{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
-    width: 100%;
     height: 100px;
+    background: #017bab;
+
     
     
 }
@@ -23,8 +24,9 @@ ul.nav-inicio{
 }
 
 a.nom{
-    color: black;
+    color: white;
     font-size: 20px;
+    font-style: bold;
 }
 .foto-usuario{
     float: right;
@@ -42,13 +44,14 @@ a.nom{
 
 }
 
-.container-plan-individual{
+.container-plan{
     background-color: rgb(212, 212, 212);
+    border-radius: 10px;
     color: black;
     padding: 20px;
     font-size: 100%;
     margin: 5px;
-    height: 400px;
+    height: 450px;
     
 }
 
@@ -59,31 +62,15 @@ a.nom{
 
 }
 
-.container-plan-duo{
-    background-color:rgb(212, 212, 212);
-    color: black;
-    padding: 20px;
-    font-size: 100%;
-    margin: 5px;
-    height: 400px;
 
-}
-.container-plan-familiar{
-    background-color:rgb(212, 212, 212);
-    color: black;
-    padding: 20px;
-    font-size: 100%;
-    margin:5px;
-    height: 400px;
-
-}
 
 .titulos-planes{
-    
-    height: 80px;
+    font-size: 25px;
+    height: 30px;
     display: flex;
     justify-items: center;
     justify-content: center;
+    font-style: bold;
 }
 
 .boton-elegir-plan{
@@ -93,35 +80,40 @@ a.nom{
     justify-content: center;
     padding: 15px;
 }
+.boton-pago{
+    font-size: 20;
+    padding:15px 25px;
+    color: black;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background:  rgb(212, 212, 212);
+
+}
 .btn-final{
     display: grid;
-    grid-template-columns: repeat(2,350px);
-    grid-gap: 50px;
+    grid-template-columns: repeat(2,200px);
+    grid-gap: 120px;
     margin: 30px;
     align-content: end;
     justify-content: center;
     align-items: end;
     justify-items: center;
-
+    
+    
 }
-.boton-final{
-    color: black;
-    height: 60px;
-    width: 200px;
-    font-size: 15;
-    padding: 20px;
     
 
-}
 .tituloh2{
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
 }
 footer{
     background-color: black;
     color: white;
- 
     text-align: center;
 }
 .contenedor-alumno{
@@ -129,4 +121,14 @@ footer{
     flex-direction: row;
     justify-content: center;
     list-style: none;
+}
+
+.titulos-precio{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.Img-Plan{
+    width: 150px; 
+    height:150px;
 }
