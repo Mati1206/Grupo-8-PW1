@@ -127,9 +127,11 @@ img {
     display: flex;
     position: relative;
     top: 40%;
-    
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.album{
+
+.album1{
     position: relative;
     
 }
@@ -140,40 +142,38 @@ img {
 }
 .estrella1{
     position: absolute;
+    width: 5%;
+    left: 19.5%;
+    margin-top: 0.5%;
 
+}
+.album2{
+    position: relative;
+    
 }
 .estrella2{
     position: absolute;
+    width: 5%;
+    left: 52.5%;
+    margin-top: 0.5%;
+}
+.album3{
+    position: relative;
     
 }
 .estrella3{
     position: absolute;
-    
+    width: 5%;
+    left: 85.8%;
+    margin-top: 0.5%;
 }
-.estrella4{
+.estrella0{
     position: absolute;
-   
+    left: 82%;
+    top: 2%;
+    width: 17%;
 }
-.estrella5{
-    position: absolute;
-    
-}
-.estrella6{
-    position: absolute;
-    
-}
-.estrella7{
-    position: absolute;
-    
-}
-.estrella8{
-    position: absolute;
-    
-}
-.estrella9{
-    position: absolute;
-    
-}
+
 
 
 footer{

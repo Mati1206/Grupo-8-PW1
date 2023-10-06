@@ -152,10 +152,18 @@ article{
     background-color: white;
     padding: 10px; 
 }
+.estrella0{
+    position: absolute;
+    left: 80%;
+    top: 2%;
+    width: 18%;
+    
+}
 @media (max-width: 650px){
     
    
 
 }
+
 
 
