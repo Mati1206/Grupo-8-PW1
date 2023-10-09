@@ -164,6 +164,77 @@ footer{
     list-style: none;
 }
 
+@media screen and (max-width:1100px){
+    .usuario-header{
+        margin-left: -10%;
+    }
+}
+@media screen and (max-width:980px){
+    .usuario-header{
+        margin-left: -26%;
+    }
+    .grilla{
+        grid-template-columns: 28% 28%; 
+        margin-bottom: -28%;
+        
+    }
+    .reproductor{
+        margin-top: 25%;
+    }
+    
+    #veras{
+       position: absolute;
+       left: 30%;
+    }
+    #porfiado{
+        position: absolute;
+        left: 80%;
+    }
+    #hoy{
+        position: absolute;
+        left: 30%;
+    }
+    #amarillo{
+        position: absolute;
+        left: 80%;
+    }
+    #libertad{
+        position: absolute;
+        left: 30%;
+    }
+    #bipolar{
+        position: absolute;
+        left: 80%;
+    }
+    #avanza{
+        position: absolute;
+        left: 30%;
+    }
+    #abuelos{
+        position: absolute;
+        left: 80%;
+    }
+    #peluson{
+        position: absolute;
+        left: 30%;
+    }
+
+}
+@media screen and (max-width:840px){
+     .grilla{
+
+        margin-bottom: -18%;
+     }
+}
+@media screen and (max-width:780px){
+    .grilla{
+
+        margin-bottom: -8%;
+     }
+}
+
+    
+
 
 
 
