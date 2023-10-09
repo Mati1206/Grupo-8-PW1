@@ -101,14 +101,39 @@ footer{
     list-style: none;
 }
 
-@media screen and (max-width:47em){
+@media screen and (max-width:980px){
     *{
-        
+        font-size: large;
     }
+    
+    footer{
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+    }
+    .form-login{
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .campos{
+        padding: 7%;
+    }
+   .boton-ingresar{
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+}
+@media screen and (max-width:752px){
+    
     .form-login {
         width: 400px;
         height:450px;
-        background: none ;
+        background: rgb(212, 212, 212) ;
         margin: auto;
         margin-top: 120px;
         padding:20px 30px;
@@ -123,7 +148,7 @@ footer{
         margin-bottom: 30px;
         border-bottom:  1px solid;
         font-size: 20px;
-        color: white;
+        color: black;
     }
     
     .campos{
@@ -183,7 +208,8 @@ footer{
     
     footer{
         color: aliceblue;
-       background-color: black;
+       background-color: black; 
+       
     }
     .contenedor-alumno{
         display: flex;
@@ -191,7 +217,14 @@ footer{
         justify-content: center;
         list-style: none;
     }
+    .campos{
+        padding: 7%;
+    }
+   .boton-ingresar{
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-
-
+   }
 }
