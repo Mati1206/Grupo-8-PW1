@@ -108,7 +108,7 @@ footer{
     
     footer{
         position: absolute;
-        bottom: 5%;
+        bottom: 0%;
         width: 100%;
     }
     .form-login{
@@ -135,7 +135,7 @@ footer{
         height:450px;
         background: rgb(212, 212, 212) ;
         margin: auto;
-        margin-top: 120px;
+        margin-top: 10%;
         padding:20px 30px;
         color: black;
     
