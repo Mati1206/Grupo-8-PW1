@@ -158,4 +158,42 @@
         
     }
     
+<<<<<<< HEAD
     }
+=======
+
+}
+.cancion img{
+    width: 10%;
+    height: 10%;
+    
+    
+}
+.play{
+    width: 55%;
+    
+} 
+section{
+    background-color: gray;
+    
+}
+article{
+    background-color: white;
+    padding: 10px; 
+}
+.estrella0{
+    position: absolute;
+    left: 80%;
+    top: 2%;
+    width: 18%;
+    
+}
+@media (max-width: 650px){
+    
+   
+
+}
+
+
+
+>>>>>>> a4b59078c177128cd52a03f0663e371b9f8ef731

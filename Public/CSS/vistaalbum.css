@@ -121,9 +121,10 @@ img {
     display: flex;
     position: relative;
     top: 40%;
-    
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.album{
+.album1{
     position: relative;
     
 }
@@ -131,38 +132,41 @@ img {
     position: absolute;
 
 }
+.estrella1{
+    position: absolute;
+    width: 5%;
+    left: 19.5%;
+    margin-top: 0.5%;
+
+}
+.album2{
+    position: relative;
+    
+}
 .estrella2{
     position: absolute;
+    width: 5%;
+    left: 52.5%;
+    margin-top: 0.5%;
+}
+.album3{
+    position: relative;
     
 }
 .estrella3{
     position: absolute;
+    width: 5%;
+    left: 85.8%;
+    margin-top: 0.5%;
+}
+.estrella0{
+    position: absolute;
+    left: 445%;
+    top: 2%;
     
 }
-.estrella4{
-    position: absolute;
-   
-}
-.estrella5{
-    position: absolute;
-    
-}
-.estrella6{
-    position: absolute;
-    
-}
-.estrella7{
-    position: absolute;
-    
-}
-.estrella8{
-    position: absolute;
-    
-}
-.estrella9{
-    position: absolute;
-    
-}
+
+
 
 
 footer{
@@ -181,3 +185,12 @@ footer{
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> a4b59078c177128cd52a03f0663e371b9f8ef731

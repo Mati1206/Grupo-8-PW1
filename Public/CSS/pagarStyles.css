@@ -54,6 +54,7 @@ h2{
     grid-gap: 30px;
     justify-content: center;
     margin: 100px;
+    margin-top: -4%;
 }
 .caja-pago{
     height: 40px;
@@ -80,6 +81,7 @@ h2{
     justify-content: center;
     align-items: end;
     justify-items: center;
+    margin-top: -4%;
     
     
 }
@@ -104,6 +106,13 @@ footer{
 .Img-Plan{
     width: 250px; 
     height:250px;
+    margin-top: -40%;
+}
+.lista-incluye{
+    margin-top: -30%;
+}
+.form-pay{
+    margin-top: -2%;
 }
 
 @media screen and (max-width:47em){
