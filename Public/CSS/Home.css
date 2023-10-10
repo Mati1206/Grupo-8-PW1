@@ -168,28 +168,6 @@
         list-style: none;
     }
     
-<<<<<<< HEAD
-}
-
-@media (max-width: 1000px) {
-
-    .grilla{
-        position: absolute;
-        bottom: 100px;
-        grid-template-columns: 25% 25% 25%; 
-        
-   
-    }
-    .contenedor-alumno{
-        margin: 0;
-        padding: 0;
-    }
-
-}
-@media (max-width: 481px) {
-   
-}
-=======
   
 }
 #Home{
@@ -385,4 +363,3 @@ footer{
 
  
 
->>>>>>> a4b59078c177128cd52a03f0663e371b9f8ef731
