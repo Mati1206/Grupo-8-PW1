@@ -132,3 +132,29 @@ footer{
     width: 150px; 
     height:150px;
 }
+@media screen and (max-width:980px){
+    .container-planes{
+        display: grid;
+        grid-template-columns: repeat(1,80%);
+        grid-gap: 50px;
+        justify-content: center;      
+    }
+    
+    
+}
+@media screen and (max-width:752px){
+    .container-planes{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-gap: 50px;
+        justify-content: center;      
+    }
+}
+@media screen and (max-width:575px){
+    .container-planes{
+        display: grid;
+        grid-template-columns: repeat(1,150%);
+        grid-gap: 50px;
+        justify-content: center;      
+    }
+}

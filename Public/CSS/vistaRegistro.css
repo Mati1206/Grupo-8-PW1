@@ -120,3 +120,51 @@ footer{
     justify-content: center;
     list-style: none;
 }
+@media screen and (max-width:980px) {
+    .formulario{
+     left: 35%;
+     
+    }
+    nav h2{
+     margin-top: -5%;
+    }
+ }
+ @media screen and (max-width:752px){
+     .formulario{
+         left: 27%;
+         
+        }
+ }
+ @media screen and (max-width:540px){
+     .formulario{
+         left: 19%;
+         
+        }
+        footer{
+         position: absolute;
+        height: 12%;
+        bottom: 0%;
+         width: 100%;
+         top: 97%;
+        }
+        
+ }
+ @media screen and (max-width:412px){
+     .formulario{
+         left: 12%;
+        }
+        footer{
+         top:99%;
+        }
+ }
+ @media screen and (max-width:380px){
+     .formulario{
+         left: 8%;
+        }
+ }
+ @media screen and (max-width:360px){
+     .formulario{
+         left: 5%;
+     }
+     
+ }
