@@ -1,5 +1,5 @@
 
-@media (min-width:481px){
+
     *{
         font-family: 'Roboto'
     }
@@ -159,7 +159,7 @@
     }
     
 
-}
+
 .cancion img{
     width: 10%;
     height: 10%;
@@ -185,6 +185,139 @@ article{
     width: 18%;
     
 }
+@media screen and (max-width:980px) {
+    .Canciones{
+        position: absolute;
+        top: 52%;
+        bottom: -49%;
+        margin-left: -18%;
+       
+    }
+    .reproductor{
+        position: absolute;
+        top: 155%;
+    }
+    footer{
+        position: absolute;
+        top: 165%;
+        width: 100%;
+    }
+    .informacion{
+        flex-direction: row;
+        margin-left: 230%;
+        margin-right: -400%;
+        margin-top: -10%;
+        align-items: center;
+        
+    }
+    .imagenInfo{
+        width: 55%;
+        height: 55%;
+    }
+    .sidebar{
+        position: absolute;
+        top: 17%;
+        width: 30%;
+    }
+    .usuario-header{
+        left: 35%;
+    }
+    .estrella0{
+        position: absolute;
+        left: 260%;
+        top: 20%;
+    }
+    
+    
+}
+@media screen and (max-width:870px){
+    .estrella0{
+        position: absolute;
+        left: 280%;
+        top: 20%;
+    }
+}
+
+@media screen and (max-width:752px){
+    .titulo-header{
+        position: absolute;
+        left: 3%;
+    }
+    .Canciones{
+        position: absolute;
+        top: 90%;
+        bottom: -49%;
+        margin-left: -10%;
+    }
+    .informacion{
+        margin-top: 230%;
+        margin-left: 90%;
+        margin-right: -350%;
+        
+    }
+    .estrella0{
+        position: absolute;
+        left: 120%;
+        top: 65%;
+        width: 35%;
+    }
+    .sidebar{
+        position: absolute;
+        top: 17%;
+        width: 50%;
+        left: 20%;
+    }
+    .reproductor{
+        width: 98%;
+    }
+    footer{
+        left: 0%;
+    }
+}
+@media screen and (max-width:615px){
+    .estrella0{
+        position: absolute;
+        left: 150%;
+        top: 65%;
+        width: 35%;
+    }
+}
+@media screen and (max-width:600px){
+    .informacion{
+        margin-top: 230%;
+        margin-left: 70%;
+        margin-right: -290%;     
+    }
+    .estrella0{
+        position: absolute;
+        left: 160%;
+        top: 62%;
+        width: 35%;
+    }
+}
+@media screen and (max-width:515px){
+    .informacion{
+        margin-top: 230%;
+        margin-left: 50%;
+        margin-right: -220%;
+    }
+    .Canciones{
+        position: absolute;
+        top: 100%;
+        bottom: -49%;
+        margin-left: -10%;
+    }
+    .usuario-header{
+        left: 15%;
+    }
+    .estrella0{
+        position: absolute;
+        left: 180%;
+        top: 59%;
+        width: 50%;
+    }
+}
+
 
 
 
