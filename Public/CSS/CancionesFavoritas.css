@@ -288,6 +288,12 @@ article{
         margin-left: 70%;
         margin-right: -290%;     
     }
+    .Canciones{
+        position: absolute;
+        top: 100%;
+        bottom: -49%;
+        margin-left: -10%;
+    }
     .estrella0{
         position: absolute;
         left: 160%;
@@ -303,7 +309,7 @@ article{
     }
     .Canciones{
         position: absolute;
-        top: 100%;
+        top: 110%;
         bottom: -49%;
         margin-left: -10%;
     }
