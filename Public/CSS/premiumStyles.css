@@ -132,6 +132,7 @@ footer{
     width: 150px; 
     height:150px;
 }
+
 @media screen and (max-width:980px){
     .container-planes{
         display: grid;
@@ -139,7 +140,21 @@ footer{
         grid-gap: 50px;
         justify-content: center;      
     }
-    
+    .btn-final{
+        display: grid;
+        grid-template-columns: repeat(2,100px);
+        grid-gap: 100px;
+        margin: 10px;
+        justify-content: center;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 2%;
+    }
     
 }
 @media screen and (max-width:752px){

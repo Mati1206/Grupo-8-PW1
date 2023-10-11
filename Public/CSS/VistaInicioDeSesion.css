@@ -15,7 +15,7 @@ main{
 }
 .form-login {
     width: 400px;
-    height:450px;
+    height:350px;
     background: rgb(212, 212, 212) ;
     margin: auto;
     margin-top: 120px;
@@ -39,7 +39,7 @@ main{
     width: 100%;
     border: 1px solid #017bab;
     margin-bottom: 15px;
-    padding: 11px 10px;
+    padding: 15px 10px;
     background: #252323;
     font-size: 14px;
     font-weight: bold;
@@ -92,7 +92,9 @@ main{
 
 footer{
     color: aliceblue;
-   background-color: black;
+    background-color: black;
+    width: auto;
+    height: 120px;
 }
 .contenedor-alumno{
     display: flex;
@@ -207,6 +209,7 @@ footer{
     }
     
     footer{
+        
         color: aliceblue;
        background-color: black; 
        

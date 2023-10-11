@@ -249,6 +249,166 @@ footer{
     }
     
 }
+@media screen and (max-width:980px){
+    
+ }
+ @media screen and (max-width:752px){
+    header{
+        display: flex;
+        margin-left: 2%;
+    }
+
+    
+    .search-bar{
+        width: 600px;
+        height: 50px;
+        border-radius: 25px;
+        border-width: 1px;
+        font-size: 14px;
+        
+    }
+    .usuario-header{ 
+        display:flex; 
+        flex-direction: row;
+        justify-content: flex-end;
+        position: relative;
+        left: 0%;
+    }
+    .nav-inicio{
+        display: none;
+    }
+    
+    a{
+        font-size: 80%;
+       
+    }
+    
+    a:hover{
+        color: green;
+    }
+    
+    .sidebar {
+        margin-top: 5%; 
+         
+    }
+    .opciones{
+        display: flex;
+        justify-content: center;
+        margin-left: -25%;
+        padding: 10% 10%; 
+        position: relative;
+        
+    }
+    
+    .opciones:hover{
+        color: green;
+        font-size: medium;
+    }
+    
+    
+    .informacion{
+        display: flex;
+        margin-left: 2%;
+        margin-right: 80%;
+        flex-direction: column;
+    }
+    .contenedor-informacion{
+        display: grid;
+        color: black;
+        border-radius: 10px;
+        position: relative;
+        width: 19.7%;
+        font-size: 15px; 
+    }
+    .txt-p{ 
+        display: flex;
+        position: relative;
+        width: 550%;
+        text-align: justify;
+        right: 0%;
+    }
+    .imagenInfo{
+        position: relative;
+        right: 11%;
+        width: 560%;
+    }
+    .estrellaInfo{
+        position: absolute;
+        left: 14.5%;
+        top: 46%;
+    }   
+    
+    .grilla{ 
+        display: grid;
+        grid-template-columns: 20% 20% 20%; 
+        position: relative ;
+        bottom: 70%;
+        left: 20%;
+           justify-content: space-around;
+    }
+    img { 
+        width: 90%;
+    }
+    
+    .img-album{
+        display: flex;
+        position: relative;
+        top: 40%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .album1{
+        position: relative;
+        
+    }
+    .reproductor{
+        width: 100%;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    .estrella1{
+        position: absolute;
+        width: 5%;
+        left: 19.5%;
+        margin-top: 0.5%;
+    
+    }
+    .album2{
+        position: relative;
+        
+    }
+    .estrella2{
+        position: absolute;
+        width: 5%;
+        left: 52.5%;
+        margin-top: 0.5%;
+    }
+    .album3{
+        position: relative;
+        
+    }
+    .estrella3{
+        position: absolute;
+        width: 5%;
+        left: 85.8%;
+        margin-top: 0.5%;
+    }
+    .estrella0{
+        position: absolute;
+        left: 82%;
+        top: 2%;
+        width: 17%;
+    }
+    
+    
+    
+    footer{
+        height: 100%;
+        
+    }
+           
+ }
 
 
 
