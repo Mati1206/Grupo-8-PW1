@@ -7,6 +7,7 @@
     body{
         background-color: #017bab;
         height: 500px;
+        width: auto;
     }
     header{
         display: flex;
@@ -57,7 +58,7 @@
       
     }
     #favoritos{
-        
+       
         background-color: rgb(189, 189, 189);
     }
     .opciones:hover{
@@ -116,7 +117,7 @@
     
     .Canciones{
         display: grid;
-        grid-template-columns: 12% 30% 30% 8% 20%;
+        grid-template-columns: 12% 30% 30% 8% 18%;
         position: absolute ;
         grid-row-gap: 1px;
         grid-column-gap: 1px;
@@ -127,7 +128,7 @@
         margin-left: 1%; 
         border: 1px black solid; 
         overflow-y: auto;
-        width: 80%;
+        width: auto;
         
     }
     
@@ -186,16 +187,17 @@ article{
     
 }
 @media screen and (max-width:980px) {
+    
     .Canciones{
         position: absolute;
-        top: 52%;
+        top: 50%;
         bottom: -49%;
-        margin-left: -18%;
-       
+        margin-left: -19%;
     }
     .reproductor{
         position: absolute;
-        top: 155%;
+        top: 150%;
+        width: 99%;
     }
     footer{
         position: absolute;
@@ -205,7 +207,7 @@ article{
     .informacion{
         flex-direction: row;
         margin-left: 230%;
-        margin-right: -400%;
+        margin-right: -390%;
         margin-top: -10%;
         align-items: center;
         
@@ -217,17 +219,23 @@ article{
     .sidebar{
         position: absolute;
         top: 17%;
-        width: 30%;
+        width: 25%;
     }
     .usuario-header{
-        left: 35%;
+        left: 45%;
     }
     .estrella0{
         position: absolute;
         left: 260%;
         top: 20%;
     }
-    
+    h1{
+        font-size: 25px;   
+    }
+    .foto-usuario{
+        position: relative;
+
+    }
     
 }
 @media screen and (max-width:870px){
@@ -281,6 +289,9 @@ article{
         top: 65%;
         width: 35%;
     }
+    footer{
+        width: 100%;
+    }
 }
 @media screen and (max-width:600px){
     .informacion{
@@ -299,6 +310,9 @@ article{
         left: 160%;
         top: 62%;
         width: 35%;
+    }
+    footer{
+        width: 100%;
     }
 }
 @media screen and (max-width:515px){
@@ -321,6 +335,9 @@ article{
         left: 180%;
         top: 59%;
         width: 50%;
+    }
+    footer{
+        width: 100%;
     }
 }
 
