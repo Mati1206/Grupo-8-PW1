@@ -317,10 +317,9 @@ footer{
         margin-top: 0.5%;
     }
     .search-bar{
-        width: 50%;
-        margin-right: 0%;
-        position: absolute;
-        top: 12%;
+        padding: 10px;
+        width: 100%;
+        top: 7%;
         display: flex;
         justify-content: center;
     }
@@ -540,7 +539,37 @@ footer{
         flex-direction: column;
     }
 }
-
+@media screen and (width<481px){
+  
+    nav.side{
+     margin: 4%;
+    }
+     .sidebar{
+   
+        margin: 5px;
+         width: 270px;
+         
+     }
+     header{
+         display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+  }
+  .informacion{
+     margin-top: 10%;
+     margin-left: 140%;
+     margin-right: -80%; 
+     align-items: center;
+     margin-bottom: 20%;
+     flex-direction: column;
+ }
+ .search-bar{
+    
+    
+ }
+ 
+ }
 
 
 

@@ -475,3 +475,36 @@ footer{
         flex-direction: column;
     }
 }
+
+@media screen and (width<481px){
+  
+    nav.side{
+     margin: 4%;
+    }
+     .sidebar{
+   
+        margin: 5px;
+         width: 270px;
+         
+     }
+     header{
+         display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+  }
+  .informacion{
+     margin-top: 10%;
+     margin-left: 140%;
+     margin-right: -80%; 
+     align-items: center;
+     margin-bottom: 20%;
+     flex-direction: column;
+ }
+ .reproductor{
+    
+   
+ }
+ 
+ }
+ 

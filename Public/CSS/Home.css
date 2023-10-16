@@ -41,9 +41,7 @@
     }
     .sidebar {
         
-        margin-right: 80%;
-        margin-top: -6%; 
-        border: 2px rgb(0, 0, 0) solid;
+       
         background-color: white;
     
          
@@ -51,8 +49,7 @@
     .opciones{
         display: flex;
         justify-content: center;
-        margin-left: -15%;
-        padding: 10% 20%; 
+      
         
       
     }
@@ -65,7 +62,7 @@
         font-size: x-large;
     }
     .opciones{
-        border-bottom: 2px rgb(0, 0, 0) solid;
+       
     }
     .informacion{
         display: flex;
@@ -179,7 +176,7 @@
     font-size: x-large;
 }
 .opciones{
-    border-bottom: 2px rgb(0, 0, 0) solid;
+
 }
 .informacion{
     display: flex;
@@ -317,8 +314,7 @@ footer{
         width: 10%;
        }
        .sidebar{
-        margin-top: 1%;
-        width: 25%;
+       
        }
        header{
         display: flex;
@@ -336,9 +332,7 @@ footer{
         margin-right: -350%; 
     }
     .sidebar{
-        margin-top: 1%;
-        margin-left: 20%;
-        width: 50%;
+      
        }
     .grilla{ 
         display: grid;
@@ -572,9 +566,37 @@ footer{
     }
 }
 
+@media screen and (width<481px){
+  
+   nav.side{
+    margin: 4%;
+   }
+    .sidebar{
+  
+       margin: 5px;
+        width: 270px;
+        
+    }
+    header{
+        display: flex;
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+ }
+ .informacion{
+    margin-top: 10%;
+    margin-left: 140%;
+    margin-right: -80%; 
+    align-items: center;
+    margin-bottom: 20%;
+    flex-direction: column;
+}
+.reproductor{
+   
+  
+}
 
-    
-
+}
 
 
 
