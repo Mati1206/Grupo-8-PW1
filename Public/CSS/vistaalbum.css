@@ -3,6 +3,8 @@
 }
 body{
     background-color: #017bab;
+    position: relative;
+    
 }
 header{
     display: flex;
@@ -260,6 +262,9 @@ footer{
         bottom: 5%;
         width: 98%;
         margin-left: -1%;
+    }
+    body{
+        padding-bottom: 400%;
     }
 
 
