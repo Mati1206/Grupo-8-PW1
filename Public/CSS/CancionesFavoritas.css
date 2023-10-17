@@ -6,8 +6,9 @@
     
     body{
         background-color: #017bab;
-        height: 500px;
         width: auto;
+        position: relative;
+        padding-bottom: 20%;
     }
     header{
         display: flex;
@@ -23,7 +24,7 @@
         flex-direction: row;
         justify-content: flex-end;
         position: relative;
-        left: 55%;
+        left: 50%;
     }
     .perfil{
       display: flex;
@@ -52,8 +53,8 @@
     .opciones{
         display: flex;
         justify-content: center;
-        margin-left: -15%;
-        padding: 10% 20%; 
+        margin-left: -20%;
+        padding: 10% 20%;
         
       
     }
@@ -100,8 +101,10 @@
     }
     footer{
         color: aliceblue;
-     
+       position: absolute;
+       bottom: 0;
        background-color: black;
+       width: 100%;
     }
     .contenedor-alumno{
         display: flex;
@@ -113,6 +116,8 @@
         width: 100%;
         border: 2px solid black;
         border-radius: 5px;
+        position: absolute;
+        bottom: 15%;
     }
     
     .Canciones{
@@ -121,8 +126,7 @@
         position: absolute ;
         grid-row-gap: 1px;
         grid-column-gap: 1px;
-        bottom: 1%;
-        top: 15%;
+        bottom: 22%;
         left: 20%;  
         justify-content: center;
         margin-left: 1%; 
@@ -187,26 +191,27 @@ article{
     
 }
 @media screen and (max-width:980px) {
-    
+    body{
+       padding-bottom: 100%; 
+    }
     .Canciones{
         position: absolute;
-        top: 50%;
-        bottom: -49%;
+        bottom: 18%;
         margin-left: -19%;
     }
     .reproductor{
         position: absolute;
-        top: 150%;
+        bottom: 10%; 
         width: 99%;
     }
     footer{
         position: absolute;
-        top: 165%;
+        bottom: 0;
         width: 100%;
     }
     .informacion{
         flex-direction: row;
-        margin-left: 230%;
+        margin-left: 210%;
         margin-right: -390%;
         margin-top: -10%;
         align-items: center;
@@ -218,11 +223,11 @@ article{
     }
     .sidebar{
         position: absolute;
-        top: 17%;
+        top: 12%;
         width: 25%;
     }
     .usuario-header{
-        left: 45%;
+        left: 35%;
     }
     .estrella0{
         position: absolute;
@@ -241,7 +246,7 @@ article{
 @media screen and (max-width:870px){
     .estrella0{
         position: absolute;
-        left: 280%;
+        left: 250%;
         top: 20%;
     }
 }
@@ -253,12 +258,12 @@ article{
     }
     .Canciones{
         position: absolute;
-        top: 90%;
-        bottom: -49%;
-        margin-left: -10%;
+        bottom: 17%;
+        margin-left: -19.5%;
+        width: 99%;
     }
     .informacion{
-        margin-top: 230%;
+        margin-top: 260%;
         margin-left: 90%;
         margin-right: -350%;
         
@@ -266,12 +271,12 @@ article{
     .estrella0{
         position: absolute;
         left: 120%;
-        top: 65%;
+        top: 70%;
         width: 35%;
     }
     .sidebar{
         position: absolute;
-        top: 17%;
+        top: 10%;
         width: 50%;
         left: 20%;
     }
@@ -281,6 +286,32 @@ article{
     footer{
         left: 0%;
     }
+    body{
+        padding-bottom: 110%;
+    }
+    .opciones{
+        margin-left: -11.5%;
+    }
+}
+@media screen and (max-width:710px){
+    body{
+        padding-bottom: 120%;
+    }
+}
+@media screen and (max-width:660px){
+    body{
+        padding-bottom: 140%;
+    }
+    .estrella0{
+        position: absolute;
+        left: 130%;
+        top: 66%;
+        width: 35%;
+    }
+    .opciones{
+        margin-left: -12.5%;
+    }
+    
 }
 @media screen and (max-width:615px){
     .estrella0{
@@ -292,53 +323,165 @@ article{
     footer{
         width: 100%;
     }
+    body{
+        padding-bottom: 160%;
+    }
+    .opciones{
+        margin-left: -13.5%;
+    }
+    
 }
 @media screen and (max-width:600px){
     .informacion{
-        margin-top: 230%;
-        margin-left: 70%;
-        margin-right: -290%;     
+        
+        margin-right: -300%;     
     }
-    .Canciones{
-        position: absolute;
-        top: 100%;
-        bottom: -49%;
-        margin-left: -10%;
-    }
+    
     .estrella0{
         position: absolute;
-        left: 160%;
-        top: 62%;
+        left: 170%;
+        top: 65%;
         width: 35%;
     }
     footer{
         width: 100%;
     }
 }
-@media screen and (max-width:515px){
-    .informacion{
-        margin-top: 230%;
-        margin-left: 50%;
-        margin-right: -220%;
-    }
-    .Canciones{
-        position: absolute;
-        top: 110%;
-        bottom: -49%;
-        margin-left: -10%;
-    }
-    .usuario-header{
-        left: 15%;
+@media screen and (max-width:552px){
+    body{
+        padding-bottom: 180%;
     }
     .estrella0{
         position: absolute;
-        left: 180%;
-        top: 59%;
+        left: 190%;
+        top: 65%;
+        width: 35%;
+    }
+    .opciones{
+        margin-left: -15%;
+    }
+    
+}
+@media screen and (max-width:515px){
+    
+    body{
+        padding-bottom: 180%;
+    }
+    .usuario-header{
+        left: 45%;
+    }
+    .estrella0{
+        position: absolute;
+        left: 330%;
+        top: 52%;
         width: 50%;
     }
     footer{
         width: 100%;
     }
+    header img{
+        display: none;
+    }
+    .informacion{
+        margin-left: 135%;
+        margin-top: 300%;
+    }
+    .txt-p{
+       display: none;
+    }
+    .imagenInfo{
+        width: 200%;
+    }
+    .opciones{
+        margin-left: -16%;
+    }
+    
+    
+}
+@media screen and (max-width:490px){
+    body{
+        padding-bottom: 200%;
+    }
+    .opciones{
+        margin-left: -18%;
+    }
+    
+}
+@media screen and (max-width:450px){
+    body{
+        padding-bottom: 220%;
+    }
+    .opciones{
+        margin-left: -18%;
+    }
+    
+}
+@media screen and (max-width:410px){
+    body{
+        padding-bottom: 240%;
+    }
+    .opciones{
+        margin-left: -21%;
+    }
+    .usuario-header{
+        left: 30%;
+    }
+
+    
+}
+@media screen and (max-width:381px){
+    body{
+        padding-bottom: 280%;
+    }
+    .opciones{
+        margin-left: -22%;
+    }
+    .informacion{
+        margin-top: 350%;
+    }
+    .estrella0{
+        position: absolute;
+        left: 330%;
+        top: 55%;
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:355px){
+    body{
+        padding-bottom: 320%;
+    }
+    .opciones{
+        margin-left: -25%;
+    }
+    .informacion{
+        margin-top: 390%;
+    }
+    .estrella0{
+        position: absolute;
+        left: 330%;
+        top: 55%;
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:313px){
+    body{
+        padding-bottom: 340%;
+    }
+    .opciones{
+        margin-left: -28%;
+    }
+    .informacion{
+        margin-top: 410%;
+    }
+    .estrella0{
+        position: absolute;
+        left: 330%;
+        top: 55%;
+        width: 50%;
+    }
+    
 }
 
 
