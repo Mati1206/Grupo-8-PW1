@@ -20,7 +20,7 @@ ul{
     flex-direction: row;
     justify-content: flex-end;
     position: relative;
-    left: 50%;
+    left: 55%;
 }
 
 .perfil{
@@ -190,7 +190,15 @@ footer{
         position: relative;
         left: 30%;
     }
+    .opciones{
+        margin-left: -17%;
+      }
     
+}
+@media screen and (max-width:1250px){
+    .opciones{
+        margin-left: -20%;
+      }
 }
 @media screen and (max-width:980px){
    .usuario-header{ 
@@ -233,6 +241,9 @@ footer{
    .reproductor{
     width: 95%;
    }
+   .opciones{
+    margin-left: -17%;
+  }
 }
 @media screen and (max-width:752px){
     .informacion{
@@ -266,7 +277,7 @@ footer{
     body{
         padding-bottom: 400%;
     }
-
+    
 
     .estrella3{
     position: absolute;
@@ -286,6 +297,9 @@ footer{
         left: 57%;
         margin-top: 0.5%;
     }
+    .opciones{
+        margin-left: -11.2%;
+      }
 
 }
 @media screen and (max-width:680px){
@@ -364,6 +378,9 @@ footer{
         width: 98%;
         margin-left: -1%;
     }
+    .opciones{
+        margin-left: -14%;
+      }
 }
 @media screen and (max-width:525px){
     .usuario-header{ 
@@ -407,30 +424,42 @@ footer{
     }
     .informacion{
         margin-top: 10%;
-        margin-left: 90%;
-        margin-right: -260%; 
+        margin-left: 180%;
+        margin-right: -270%; 
         align-items: center;
-        margin-bottom: 10%;
+        margin-bottom: 80%;
+        flex-direction: column;
+        justify-content: center;
+        
     }
+    
+    .txt-p{
+        display: none;
+       }
+       .foto-usuario{
+        display: none;
+       }
+       .imagenInfo{
+        border: 3px outset orange;
+        width: 150%;
+        height: 150%;
+        
+       }
+       .estrella0{
+        width: 40%;
+        left: 70%;
+        top: 10%;
+       }
+       
+       .opciones{
+        margin-left: -18%;
+       }
+    
+    
 }
 @media screen and (max-width:470px){
-    .informacion{
-        margin-top: 10%;
-        margin-left: 150%;
-        margin-right: -90%; 
-        align-items: center;
-        margin-bottom: 20%;
-        flex-direction: column;
-    }
-    .imagenInfo{
-        width: 300%;
-        height: 300%;
-       }
-    .estrella0{
-        width: 80%;
-        left: 100%;
-        top: 1%;
-    }
+    
+    
     footer{
         position: absolute;
         width: 100%;
@@ -471,14 +500,7 @@ footer{
         width: 98%;
         margin-left: -1%;
     }
-    .informacion{
-        margin-top: 10%;
-        margin-left: 140%;
-        margin-right: -80%; 
-        align-items: center;
-        margin-bottom: 20%;
-        flex-direction: column;
-    }
+  
 }
 
 @media screen and (width<481px){
@@ -498,14 +520,24 @@ footer{
         justify-content: center;
         align-items: center;
   }
-  .informacion{
-     margin-top: 10%;
-     margin-left: 140%;
-     margin-right: -80%; 
-     align-items: center;
-     margin-bottom: 20%;
-     flex-direction: column;
- }
+  .side{
+    display: flex;
+    justify-content: center;
+  }
+  .opciones{
+    margin-left: -15%;
+  }
+  
 
+ }
+ @media screen and (width<331px){
+    footer{
+        font-size: 80%;
+    }
+ }
+ @media screen and (width<242px){
+    footer{
+        font-size: 60%;
+    }
  }
  
