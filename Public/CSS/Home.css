@@ -605,15 +605,40 @@ footer{
 @media screen and (width<361px){
     .informacion{
         margin-top: 10%;
-        margin-left: 110%;
-        margin-right: -50%; 
+        margin-left: 190%;
+        margin-right: -220%; 
         align-items: center;
-        margin-bottom: 20%;
+        margin-bottom: 80%;
         flex-direction: column;
         justify-content: center;
+        
     }
+   .txt-p{
+    display: none;
+   }
+   .foto-usuario{
+    display: none;
+   }
+   .imagenInfo{
+    border: 3px outset orange;
+   }
+   .side{
+    display: flex;
+   }
+   .opciones{
+    margin-left: -18%;
+   }
 }
-
+@media screen and (width<310px){
+   footer{
+    font-size: 80%;
+   } 
+}
+@media screen and (width<240px){
+    footer{
+        font-size: 50%;
+       } 
+}
 
 
 
