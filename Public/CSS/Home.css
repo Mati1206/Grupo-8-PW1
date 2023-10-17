@@ -570,7 +570,7 @@ footer{
         flex-direction: column;
     }
 }
-
+/*
 @media screen and (width<481px){
   
    nav.side{
@@ -602,7 +602,8 @@ footer{
 }
 
 }
-@media screen and (width<371px){
+*/
+@media screen and (width<481px){
     .informacion{
         margin-top: 10%;
         margin-left: 190%;
@@ -624,6 +625,7 @@ footer{
    }
    .side{
     display: flex;
+    justify-content: center;
    }
    .opciones{
     margin-left: -18%;
