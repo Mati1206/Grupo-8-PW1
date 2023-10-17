@@ -329,6 +329,9 @@ article{
     .opciones{
         margin-left: -13.5%;
     }
+    .informacion{
+        margin-top: 350%;
+    }
     
 }
 @media screen and (max-width:600px){
@@ -480,6 +483,9 @@ article{
         left: 330%;
         top: 55%;
         width: 50%;
+    }
+    .usuario-header{
+        left: 20%;
     }
     
 }
