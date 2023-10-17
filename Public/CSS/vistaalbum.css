@@ -252,12 +252,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -440%;
+        bottom: 0;
         margin-left: 0%;
     }
     .reproductor{
         position: absolute;
-        bottom: -420%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -287,12 +287,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -390%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -370%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -329,12 +329,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -360%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -340%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -350,12 +350,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -340%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -320%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -377,12 +377,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -310%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -290%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -391,12 +391,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -290%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -270%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -429,12 +429,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -280%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -260%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -443,12 +443,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -260%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -240%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -457,12 +457,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -240%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -220%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -501,10 +501,6 @@ footer{
      margin-bottom: 20%;
      flex-direction: column;
  }
- .reproductor{
-    
-   
- }
- 
+
  }
  

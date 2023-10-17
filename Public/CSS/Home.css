@@ -208,7 +208,7 @@
     position: absolute ;
     bottom: 70%;
     left: 20%;
-       justify-content: space-around;
+    justify-content: space-around;
        
 }
 img { 
@@ -337,23 +337,27 @@ footer{
     .grilla{ 
         display: grid;
         grid-template-columns: 50% ; 
-        margin-bottom: -280%;
+        position: absolute;
         gap: 2%;
     }
     footer{
         position: absolute;
         width: 100%;
-        bottom: -440%;
+        bottom: 0;
         margin-left: 0%;
+    }
+    body{
+        position: relative;
+        padding-bottom: 400%;
     }
     .reproductor{
         position: absolute;
-        bottom: -420%;
-        width: 98%;
+        bottom: 3%;
+        width: 100%;
         margin-left: -1%;
     }
 
-
+    
     .estrella3{
     position: absolute;
     width: 12%;
@@ -377,12 +381,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -390%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -370%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -419,12 +423,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -360%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -340%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -440,12 +444,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -340%;
+        bottom: 0%;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -320%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -467,12 +471,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -310%;
+        bottom: 0%;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -290%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -481,12 +485,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -290%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -270%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -519,26 +523,27 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -280%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -260%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
+    
 }
 @media screen and (max-width:425px){
     footer{
         position: absolute;
         width: 100%;
-        bottom: -260%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -240%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -547,12 +552,12 @@ footer{
     footer{
         position: absolute;
         width: 100%;
-        bottom: -240%;
+        bottom: 0;
         margin-left: -1%;
     }
     .reproductor{
         position: absolute;
-        bottom: -220%;
+        bottom: 5%;
         width: 98%;
         margin-left: -1%;
     }
@@ -574,8 +579,11 @@ footer{
     .sidebar{
   
        margin: 5px;
-        width: 270px;
+        width: 90%;
         
+    }
+    footer{
+        width: 100%;
     }
     header{
         display: flex;
@@ -590,12 +598,20 @@ footer{
     align-items: center;
     margin-bottom: 20%;
     flex-direction: column;
-}
-.reproductor{
-   
-  
+    justify-content: center;
 }
 
+}
+@media screen and (width<361px){
+    .informacion{
+        margin-top: 10%;
+        margin-left: 110%;
+        margin-right: -50%; 
+        align-items: center;
+        margin-bottom: 20%;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 
