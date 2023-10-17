@@ -417,6 +417,10 @@ article{
     .opciones{
         margin-left: -18%;
     }
+    .informacion{
+        
+        margin-top: 400%;
+    }
     
 }
 @media screen and (max-width:410px){
