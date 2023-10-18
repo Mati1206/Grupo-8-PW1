@@ -122,12 +122,13 @@
     
     .Canciones{
         display: grid;
-        grid-template-columns: 12% 30% 30% 8% 18%;
+        grid-template-columns: 13% 30% 30% 8% 18.5%;
         position: absolute ;
         grid-row-gap: 1px;
         grid-column-gap: 1px;
         bottom: 22%;
         left: 20%;  
+        height: 65%;
         justify-content: center;
         margin-left: 1%; 
         border: 1px black solid; 
@@ -198,6 +199,7 @@ article{
         position: absolute;
         bottom: 18%;
         margin-left: -19%;
+        max-height: 50%;
     }
     .reproductor{
         position: absolute;
@@ -231,7 +233,7 @@ article{
     }
     .estrella0{
         position: absolute;
-        left: 260%;
+        left: 245%;
         top: 20%;
     }
     h1{
@@ -250,6 +252,11 @@ article{
         top: 20%;
     }
 }
+@media screen and (max-width:802px){
+  .Canciones{
+    max-height: 45%;
+   }
+}
 
 @media screen and (max-width:752px){
     .titulo-header{
@@ -261,6 +268,7 @@ article{
         bottom: 17%;
         margin-left: -19.5%;
         width: 99%;
+        max-height: 35%;
     }
     .informacion{
         margin-top: 260%;
@@ -297,6 +305,13 @@ article{
     body{
         padding-bottom: 120%;
     }
+    .Canciones{
+        display: grid;
+            grid-template-columns: 12.5% 30% 30% 8.5% 18.5%;
+            width: 101.5%;
+            margin-left: -21%;
+            
+        }
 }
 @media screen and (max-width:660px){
     body{
@@ -317,7 +332,7 @@ article{
     .estrella0{
         position: absolute;
         left: 150%;
-        top: 65%;
+        top: 72%;
         width: 35%;
     }
     footer{
@@ -343,7 +358,7 @@ article{
     .estrella0{
         position: absolute;
         left: 170%;
-        top: 65%;
+        top: 70%;
         width: 35%;
     }
     footer{
@@ -357,7 +372,7 @@ article{
     .estrella0{
         position: absolute;
         left: 190%;
-        top: 65%;
+        top: 70%;
         width: 35%;
     }
     .opciones{
@@ -408,6 +423,13 @@ article{
     .opciones{
         margin-left: -18%;
     }
+    .estrella0{
+        position: absolute;
+        left: 330%;
+        top: 58%;
+        width: 50%;
+    }
+   
     
 }
 @media screen and (max-width:450px){
@@ -432,6 +454,9 @@ article{
     }
     .usuario-header{
         left: 30%;
+    }
+    .Canciones{
+        max-height: 35%;
     }
 
     
@@ -477,10 +502,11 @@ article{
         padding-bottom: 340%;
     }
     .opciones{
-        margin-left: -28%;
+        margin-left: -35%;
     }
     .informacion{
         margin-top: 410%;
+        
     }
     .estrella0{
         position: absolute;
@@ -493,7 +519,56 @@ article{
     }
     
 }
-
+@media screen and (max-width:295px){
+    .informacion{
+        margin-bottom: 80%;
+    }
+    
+}
+@media screen and (max-width:280px){
+    .informacion{
+        margin-bottom: -550%;
+    }
+}
+@media screen and (max-width:275px){
+   footer{
+    font-size: 80%;
+   }
+   .informacion{
+    margin-top: 550%;
+    margin-bottom: -550%;
+}
+.estrella0{
+    position: absolute;
+    left: 330%;
+    top: 45%;
+    width: 50%;
+}
+.sidebar{
+  margin-left: -19%;
+  width: 80%;
+}
+.opciones{
+    margin-left: -20%;
+}
+.usuario-header{
+    margin-top: 25%;
+    left: -18%;
+}
+.titulo-header{
+    left: 25%;
+}
+}
+@media screen and (max-width:253px){
+    footer{
+        font-size: 80%;
+    }
+ }
+ @media screen and (max-width:230px){
+    footer{
+        font-size: 60%;
+    }
+ }
 
 
 

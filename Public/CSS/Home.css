@@ -623,6 +623,24 @@ footer{
     footer{
         font-size: 50%;
        } 
+       .opciones{
+        
+        margin-left: -32%;
+       }
+}
+@media screen and (width<170px){
+    .opciones{
+        
+        margin-left: -48%;
+       }
+       footer{
+        height: 5%;
+        align-items: center;
+        justify-content: center;
+       } 
+       .titulo-header{
+        font-size: medium;
+       }
 }
 
 

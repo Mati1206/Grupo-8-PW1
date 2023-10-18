@@ -132,7 +132,16 @@ footer{
     width: 150px; 
     height:150px;
 }
-
+@media screen and (max-width:1280px){
+  .container-planes{
+    grid-column-gap: 2%;
+    grid-template-columns: repeat(3,33%);
+    
+  }
+  .container-plan{
+    padding-bottom: 60%;
+  }
+}
 @media screen and (max-width:980px){
     .container-planes{
         display: grid;
@@ -149,12 +158,15 @@ footer{
     }
     footer{
         height: auto;
-        width: 100%;
+        max-width:  100%;
         background-color: black;
         color: white;
         text-align: center;
         padding: 2%;
     }
+    .container-plan{
+        padding-bottom: 10%;
+      }
     
 }
 @media screen and (max-width:752px){
@@ -172,4 +184,15 @@ footer{
         grid-gap: 50px;
         justify-content: center;      
     }
+}
+@media screen and (width<425px){
+    .container-plan{
+        padding-bottom: 80%;
+      }
+}
+@media screen and (width<375px){
+    .container-plan{
+        padding:0% 10% 120% 10%;
+        
+      }
 }
