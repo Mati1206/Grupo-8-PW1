@@ -26,23 +26,23 @@ initial-scale=1, maximum-scale=1">
         </nav>
     </header>
     <main>
-       
+      
             <form action="" method="post" id="formulario" class="formulario">
            <div class="contenedor-form">
-                <label class="form"class="form_label" Usuario>Usuario </label>
-                <input class="form-input" type="text" id="usuario"  placeholder="Ingrese su usuario"  name="usuario" >
+                <label  id="usuarios" class="form"class="form_label" Usuario>Usuario </label>
+                <input  class="form-input" type="text" id="usuario"  placeholder="Ingrese su usuario"  name="usuario" >
             </div>
             <div class="contenedor-form">
-                <label class="form"for="Contraseña"> Contraseña</label>
-                <input class="form-input"type="password" id="contraseña" placeholder="Ingrese su contraseña" name="contraseña">
+                <label id="contraseñas" class="form"for="Contraseña"> Contraseña</label>
+                <input id="contraseña" class="form-input"type="password" placeholder="Ingrese su contraseña" name="contraseña">
             </div>
             <div class="contenedor-form">
-                <label class="form"for="Repetir contraseña">Repetir contraseña</label>
-                <input class="form-input"type="password" id="contraseña"  placeholder="Repita su contraseña" name="Repita contraseña">
+                <label class="form"for="Repetir contraseña" id="contraseñas">Repetir contraseña</label>
+                <input class="form-input"type="password" id="contraseña2"  placeholder="Repita su contraseña" name="Repita contraseña">
             </div>
                 <div class="contenedor-form">
                 <label class="form" for="Fecha de nacimiento">Fecha de nacimiento</label>
-                <input class="form-input" type="date" placeholder="dd-mm-aaaa" name="fecha de nacimiento">
+                <input id="fecha"class="form-input" type="date" placeholder="dd-mm-aaaa" name="fecha de nacimiento">
             </div>
             <div class="contenedor-form">
                 <label class="form" for="Email">E-mail</label>
@@ -52,11 +52,17 @@ initial-scale=1, maximum-scale=1">
                 <a href="../Vista/vistapremiumSinRegistro.html" class="txt-cont"> Premium</a> 
             </div>
                     <div class="form_group">
-               <a href="../index.html"><input class="button" type="" class="form_submite" value="Registrarme"></a>
+              <button type="" onclick="return enviarformulario()"class="button" id="button" class="form_submite" value="Registrarme">Registrarme</button>
                     </div>
+                    <div id="error1"></div>
+                    <div id="error2"></div>
+                    <div id="error3"></div>
+                    <div id="error4"></div>
+                    <div id="error5"></div>
             </div>
        
             </form>
+    
     </main>
     <footer> 
         <ul class="contenedor-alumno"> 
@@ -68,10 +74,11 @@ initial-scale=1, maximum-scale=1">
            
         
             <li class="Titulo-alumnos"> Chaparro Micaela Dni 40.891.174  </li>
-           <!-- > <i class="fa-brands fa-github"></i> icono de git-->
+       
         </div>
          
         </ul>
     </footer>
+    <script src="../Public/Js/ValidacionRegistro.js"></script>
 </body>
 </html>
