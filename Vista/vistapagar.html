@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es" dir="ltr">
 
 <head>
@@ -7,6 +8,7 @@
     <meta name="viewport"
     content="width=device-width,
     initial-scale=1, maximum-scale=1">
+    
 </head>
 
 <body>
@@ -52,18 +54,25 @@
         
         </article>
 
-        <article class="campos-pagar">
-            <input class="caja-pago" type="text" name="nrotarjeta" value="" placeholder="Tarjeta">
-            <input class="caja-pago" type="date"  name="Vencimiento" placeholder="Vencimiento mm-aaaa">
-            <input class="caja-pago" type="password" name="CVC" value="" placeholder="CVC">
-            <input class="caja-pago" type="text" name="Nombres" value="" placeholder="Nombre y apellido del titular">
-        </article>
+            <form id="form-pago">
+                <article class="campos-pagar" id="campos_pagar">
+                    
+                        <input class="caja-pago" type="number" nombre="nrotarjeta" id="nroTarj" value="" placeholder="Tarjeta" required>
+                    
+                    
+                    <input class="caja-pago" type="date"  nombre="Vencimiento" id="Venc"  placeholder="Vencimiento mm-aaaa" required>
+                    <input class="caja-pago" type="password" nombre="CVC" id="codSeguridad" value="" placeholder="CVC" required>
+                    <input class="caja-pago" type="text" nombre="Nombres" value="" placeholder="Nombre y apellido del titular"required>
+                </article>
+            </form>
+            
+
+                <div class="btn-final">
+                    <a href="../Vista/vistapremium.html" class="boton-pago">Cancelar</a>
+                    <button  class="boton-pago" type="button" id="btn-Pagar" >Pagar</a>
+                <!-- > href="../Vista/Home.html" */ -->
+                </div>
         
-       
-        <div class="btn-final">
-            <a href="../Vista/vistapremium.html" class="boton-pago">Cancelar</a>
-            <a href="../Vista/Home.html" class="boton-pago">Pagar</a>
-        </div>
     </section>
 
     <footer> 
@@ -81,7 +90,7 @@
          
         </ul>
     </footer>
-  
+    <script src="/Public/Js/ValidacionPagar.js"></script>
 </body>
 
 </html>

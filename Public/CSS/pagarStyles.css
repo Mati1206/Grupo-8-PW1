@@ -16,6 +16,9 @@ nav{
     
 }
 
+.input-error{
+    border: 2px solid red;
+}
 
 ul.nav-inicio{
     float: right;

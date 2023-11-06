@@ -31,7 +31,7 @@ initial-scale=1, maximum-scale=1">
     </header>
     <h2 class="tituloh2">Elegí tu plan premium</h2>
 
-    <section class="container-planes">
+    <section class="container-planes" id="planes_disponibles">
             <article class="container-plan">
                         <h4 class="titulos-planes"> Individual </h4>
                         <h3 class="titulos-precio">$999 *</h3>
@@ -48,8 +48,8 @@ initial-scale=1, maximum-scale=1">
                                 <li>Bloqueo de música con contenido explícito. </li>
                                 
                             </ul>
-                            <div class="boton-elegir-plan">
-                                <input type="radio" name="Elegir Plan" id="Elegir Plan">
+                            <div class="boton-elegir-plan" id="plan_individual">
+                                <input type="radio" name="Elegir Plan" id="Elegir_Plan_Individual">
                                 
                              </div>
                     
@@ -73,8 +73,8 @@ initial-scale=1, maximum-scale=1">
                             
                                 
                         </ul>
-                        <div class="boton-elegir-plan">
-                            <input  type="radio" name="Elegir Plan" id="Elegir Plan">
+                        <div class="boton-elegir-plan" id="plan_duo">
+                            <input  type="radio" name="Elegir Plan" id="Elegir_Plan_Duo">
                         
                         </div>
                 </article>
@@ -94,8 +94,8 @@ initial-scale=1, maximum-scale=1">
                             <li>Spotify Kids: una aplicación independiente creada solo para niños.</li>
                             
                         </ul>
-                        <div class="boton-elegir-plan">
-                            <input  type="radio" name="Elegir Plan" id="Elegir Plan">
+                        <div class="boton-elegir-plan" id="plan_familiar">
+                            <input  type="radio" name="Elegir Plan" id="Elegir_Plan_Familiar">
                             
                          </div>
                 </article>
@@ -105,7 +105,9 @@ initial-scale=1, maximum-scale=1">
 
  <div class="btn-final">
     <a class="boton-pago" href="../Vista/Home.html" >Cancelar</a>
-    <a class="boton-pago" href="../Vista/vistapagar.html" >Avanzar</a>
+    <!-- > <a class="boton-pago" href="../Vista/vistapagar.html" >Avanzar</a>*/ -->
+
+    <button  class="boton-pago" type="button" id="btn_Elegir_Plan" >Avanzar</a>
 
  </div>
   
@@ -124,7 +126,9 @@ initial-scale=1, maximum-scale=1">
      
     </ul>
 </footer>
+    <script src="/Public/Js/ValidarPremium.js"></script>
 
 </body>
 
 
+</html>
