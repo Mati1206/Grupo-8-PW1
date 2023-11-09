@@ -1,19 +1,14 @@
 const usuarioindex= document.getElementById('usuarioindex').value
 const contraseñaindex= document.getElementById('contraseñaindex').value
-
-
+let nombre= window.localStorage.getItem('lst');
+document.querySelector('#formulario').innerHTML=nombre;
 
 function ejecutar(){ 
-    usuarioindex.innerHTML=localStorage.lst
-    console.log(usuarioindex);
-    console.log(localStorage.lst)
-if(usuarioindex.value== localStorage.lst.usuario) { 
-    alert("ok")
-    
-    window.location.href="../Grupo-8-PW1/Vista/Home.html"
-    
+
+    console.log(nombre[1])
 }
-}
+
+
 
 // creo en la etiqueta H1 un id= "usuario"
 

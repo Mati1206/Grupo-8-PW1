@@ -83,20 +83,23 @@ function enviarformulario(){
     let correo=document.getElementById("correo").value
     
     
-    lst= [
-        usuario= usuario,
-        contraseña="contraseña" +" "+contraseña,
-        contraseña2="contraseña "+ " " +contraseña2,
-        fecha="Fecha de nacimiento" + " " + fecha,
-        correo=" Correo electronico" + " " + correo,
-    ]
+    lst= [{
+        usuario: usuario,
+        contraseña:contraseña,
+        contraseña2:contraseña2,
+        fecha: fecha,
+        correo: correo,
+    }]
     if(usuario===""|| contraseña==="" || contraseña2==="" || correo==="" || fecha===""){ 
         alert("Faltan completar datos")
     }else { 
         alert("Registro exitoso") 
         window.location.href = "../index.html"
-        localStorage.lst= [usuario,contraseña,fecha,correo]
+        window.localStorage.setItemlst= ("lista",JSON.stringify(lst))
+        lst=JSON.parse(localStorage.getItem("lista"))        
+        document.querySelector('#formulario').innerHTML=lst.usuario.value;
+        
     }
-   console.log(lst)
+   
  
 }
