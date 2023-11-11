@@ -1,15 +1,27 @@
-const usuarioindex= document.getElementById('usuarioindex').value
-const contraseñaindex= document.getElementById('contraseñaindex').value
-let nombre= window.localStorage.getItem('lst');
-document.querySelector('#formulario').innerHTML=nombre;
-
-function ejecutar(){ 
-
-    console.log(nombre[1])
+if (!localStorage.getItem('users')) {
+    localStorage.setItem('users', '[]');    
 }
 
+let users = JSON.parse(localStorage.getItem('users'));
 
 
-// creo en la etiqueta H1 un id= "usuario"
+var sesion = false;
 
-// document.getelementbyid("usuario").innerhtml=localstorage.lts.usario;
+function validarLogin(){
+
+    let usuarioindex= document.getElementById('usuarioindex').value;
+    let contraseñaindex= document.getElementById('contraseñaindex').value;
+
+    users.forEach(user => {
+
+        if (user.nombre === usuarioindex && user.contraseña === contraseñaindex) {
+            localStorage.setItem("usuario", JSON.stringify(user));
+        
+            window.location.href = '../../Vista/Home.html';
+            sesion = true;
+            localStorage.setItem("Sesion", "true");
+        }
+    });
+    if(!sesion) alert("Usuario o contraseña incorrectos");
+    
+}

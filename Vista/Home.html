@@ -19,8 +19,8 @@ initial-scale=1, maximum-scale=1">
            <h1 class="titulo-header"> SPOTILAM </h1>
            <div class="usuario-header">
             <ul class="nav-inicio">
-                <li> <a href="../Vista/perfil.html" class="nom"> Nombre de usuario </a></li>
-                <li> <a href="../index.html"> Cerrar sesion </a></li>
+                <li> <a href="../Vista/perfil.html" id="nombreUsuario">Nombre</a></li>
+                <li> <button onclick="cerrarSesion()"> Cerrar sesion   </button></li>
             </ul> 
             <label for="" class="foto-usuario">
                 <a href="../Vista/perfil.html"><img src = "../Public/IMG/perfil-del-usuario.png" />
@@ -56,9 +56,11 @@ initial-scale=1, maximum-scale=1">
             <div class="img1">
                 <section class="img-album">
                     <div class="grilla">
-                    <article>
-                       <a href="../Vista/MusicaSonando1.html"><img class="album1" src="../Public/IMG/me veras.jpg" alt="soda" ></a>
+                    <article id="album1">
+                     
+                        <div onclick="agregar()" id="btn-estrella"> 
                         <img class="estrella1" id="veras" src="../Public/IMG/estrellaend.png" alt="star">
+                         </div>
                         </article>
                     <article>
                         <a href="../Vista/MusicaSonando1.html"> <img class="album2" src="../Public/IMG/porfiado.jpg" alt="porfiado" ></a>
@@ -114,7 +116,7 @@ initial-scale=1, maximum-scale=1">
             </ul>
         </footer>
 
+        <script src="../Public/Js/ModificarNombre.js"></script>
+        <script src="../Public/Js/Logout.js"></script>
     </body>
-
-
 </html>
