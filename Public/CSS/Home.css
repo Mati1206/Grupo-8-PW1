@@ -16,6 +16,19 @@
         list-style: none;
       
     }
+    
+    #btn-estrella { 
+        width: 200px;
+        height: 200px;
+        
+        
+        z-index: 999;
+        
+    }
+    #album1{ 
+        background-image: url("../IMG/abuelos.jpg");
+        border-radius: 10%;
+    }
     .usuario-header{ 
        
         display:flex; 
