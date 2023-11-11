@@ -17,7 +17,7 @@ function validarLogin(){
         if (user.nombre === usuarioindex && user.contraseña === contraseñaindex) {
             localStorage.setItem("usuario", JSON.stringify(user));
         
-            window.location.href = '../../Vista/Home.html';
+            window.location.href = 'Vista/Home.html';
             sesion = true;
             localStorage.setItem("Sesion", "true");
         }

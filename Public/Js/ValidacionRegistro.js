@@ -107,7 +107,7 @@ function enviarformulario(){
         
         processData(user);
         alert("Registro exitoso");
-        window.location.href = "../../index.html";
+        window.location.href = "../index.html";
     }
    
  
