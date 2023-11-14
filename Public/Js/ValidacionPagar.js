@@ -52,16 +52,7 @@ let obtenerDatos = () =>{
 btnPagar.addEventListener('click',obtenerDatos);
 
 
-function obtener_Usuario(){
+const nombreUsuario= document.getElementById('nombreUsuario'); 
+let usuario= JSON.parse(localStorage.getItem("usuario")); 
 
-    if(localStorage.getItem("nombre")){
-        //se que existe en el local storage
-        let nomUsuario =localStorage.getItem("nombre");
-        console.log(nombre);
-    }else{
-
-        console.log("Iniciar Sesion/registrase")
-    }
-    
-
-}
+nombreUsuario.innerHTML=usuario.nombre; 
